@@ -13,7 +13,6 @@ function MovieList({genreId,index_}) {
     const getMovieByGenreId=()=>{
         GlobalApi.getMovieByGenreId(genreId).then(resp=>{
             setMovieList(resp.data.results)
-            console.log(resp.data.results)
         })
     }
 
