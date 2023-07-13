@@ -12,7 +12,7 @@ function App() {
       <div>
         <Header/>
         <Slider/>
-        <ProductionHouse/>
+        {/* <ProductionHouse/> */}
         <GengreMovieList/>
       </div>
     </>
