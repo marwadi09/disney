@@ -82,7 +82,7 @@ function GenreMovieList() {
   ]
   return (
     <div>
-        {genre.map((item,index)=>index<=8&&(
+        {genre.map((item,index)=>index<=10&&(
             <div className='p-8 px-8 md:px-16'>
                 <h2 className='text-3xl text-white text-center text-transform: uppercase my-2
                 font-bold'>{item.name}</h2> 

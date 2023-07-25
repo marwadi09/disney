@@ -16,7 +16,7 @@ function HrMovieCard({movie}) {
     <div className='mt-2 bg-[#070913;] p-1 rounded-lg shadow-md 
         shadow-gray-800 '>
     <h2 className='w-28 md:w-64 text-white text-center mt-2 cursor-pointer'>{movie.title}</h2>
-    <h2 className='w-28 md:w-64 text-gray-600 text-sm text-center '>Rating : {movie.vote_average}/10</h2>
+    <h2 className='w-28 md:w-64 text-gray-600 text-sm text-center cursor-pointer '>Rating : {movie.vote_average}/10</h2>
     <h3 className={`w-28 md:w-64 text-gray-600 text-sm text-center ${txt?"":"hidden"} `}>{movie.overview}</h3>
     </div>
     </div>
