@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import logo from './../assets/images/movie-khoj.png'
 function Header() {
     
