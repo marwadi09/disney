@@ -13,7 +13,7 @@ function MovieCard({movie}) {
         className='w-28 md:w-48 rounded-lg hover:border-2 border-gray-400 cursor-pointer shadow-lg 
         shadow-gray-800'/>
         <h2 className='w-28 md:w-48 text-gray-400 text-base text-center mt-2 bg-[#070913;] p-1 rounded-lg shadow-md 
-        shadow-gray-800 cursor-pointer'>Rating : {movie.vote_average}</h2>
+        shadow-gray-800 cursor-auto'>Rating : {movie.vote_average}</h2>
     </div>
   )
 }
